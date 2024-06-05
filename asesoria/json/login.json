@@ -1,0 +1,25 @@
+{
+    "usuarios": [
+        {
+            "id":"12345",
+            "nombre":"Admin",
+            "contraseña": "123",
+            "rol": "administracion",
+            "rango": "Administrador"
+        },
+        {
+            "id":"56789",
+            "nombre":"Profesor",
+            "contraseña": "321654",
+            "rol": "user",
+            "rango": "Profesor"
+        },
+        {
+            "id":"67891",
+            "nombre":"Estudiante",
+            "contraseña": "estudiante",
+            "rol": "user",
+            "rango": "Estudiante"
+        }
+    ]
+}

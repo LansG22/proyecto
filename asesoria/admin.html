@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administracion</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <header>
+        <h1>Administracion de Contenido</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+            
+            <li><a href="login.html">Cerrar sesion</a></li>
+            <li id="usernameDisplay"></li>
+        </ul>
+    </nav>
+    <center><h2>Gestion</h2></center>
+    <div class="container">
+        <div class="table-container">
+            <center><h2>Usuarios de la página</h2></center>
+            <table id="usersTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Rol</th>
+                        <th>Rango</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+       
+        <div class="button-container">
+            <button id="addButton">Añadir</button>
+            <button id="editButton">Modificar</button>
+            <button id="deleteButton">Eliminar</button>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 - Todos los derechos reservados</p>
+    </footer>
+    <script src="js/admin.js"></script>
+</body>
+</html>
